@@ -1,0 +1,39 @@
+.status {
+  max-width: 300px;
+  background-color: transparent;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #7f7979;
+  overflow: hidden;
+}
+
+.status_header {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.heading {
+  font-weight: 600;
+  color: #d8d8d8;
+}
+.date {
+  opacity: 0.9;
+  font-size: small;
+}
+
+.note {
+  font-size: 0.95em;
+}
+
+.status_footer {
+  border-top: 1px solid #d8d8d8;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

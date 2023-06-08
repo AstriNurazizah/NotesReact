@@ -1,0 +1,31 @@
+.button {
+  background-color: transparent;
+  flex: 1;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.5em 2em;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #363536;
+}
+
+.button[data-action="Hapus"] {
+  color: #e27b7b;
+}
+
+.button[data-action="Arsip"],
+.button[data-action="Tidak Arsip"] {
+  color: #7db964;
+}
+
+.button[data-action="Hapus"]:hover {
+  color: #363536;
+  background-color: #e27b7b;
+}
+
+.button[data-action="Arsip"]:hover,
+.button[data-action="Tidak Arsip"]:hover {
+  color: #363536;
+  background-color: #7db964;
+}
